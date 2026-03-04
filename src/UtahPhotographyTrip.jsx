@@ -17,7 +17,7 @@ const UtahPhotographyTrip = () => {
         { time: '6:00 AM', event: 'Depart Carson City, NV', type: 'drive', note: '4 vehicles, 5 people, towing trailers' },
         { time: '~9:30 AM', event: 'Fuel/restroom stop - Ely, NV', type: 'stop', note: 'Good truck stop options' },
         { time: '~12:30 PM', event: 'Lunch stop - Delta or Fillmore, UT', type: 'food' },
-        { time: '~3:00 PM', event: 'Arrive Hampton Inn Richfield', type: 'lodging', note: '1100 W 1350 S, Richfield, UT 84701 • +1 435-896-6666' },
+        { time: '~3:00 PM', event: 'Arrive Fairfield by Marriott Inn & Suites Richfield', type: 'lodging', note: '990 W 1350 S, Richfield, UT 84701 • Confirmation 86030282 • 2 extended rooms, 2 queen beds each • +1 435-896-9191' },
         { time: 'Evening', event: 'Dinner in Richfield, gear check, route review', type: 'prep' }
       ],
       distance: '~430 miles',
@@ -32,13 +32,13 @@ const UtahPhotographyTrip = () => {
       gradient: 'from-orange-600 to-red-800',
       coords: '38.569593, -110.743586',
       schedule: [
-        { time: '7:00 AM', event: 'Depart Hampton Inn Richfield', type: 'drive' },
-        { time: '7:30 AM', event: 'Mystic Hot Springs - Morning soak', type: 'rest', note: '475 E 100 N, Monroe, UT • Book in advance at mystichotsprings.com • 2hr soak session' },
-        { time: '10:00 AM', event: 'Depart Mystic for Goblin Valley', type: 'drive', note: '~2 hour drive via UT-24' },
-        { time: '12:00 PM', event: 'Arrive Goblin Valley area, lunch', type: 'food' },
-        { time: '1:00 PM', event: 'Setup camp at BLM dispersed site', type: 'camp', note: 'Coordinates: 38.569593, -110.743586' },
-        { time: '2:30 PM', event: 'Temple Mountain Wash Pictograph Panel', type: 'photo', note: 'Large, vivid pictographs - easy access from paved road' },
-        { time: '4:30 PM', event: 'Goblin Valley State Park exploration', type: 'photo', note: 'The Three Sisters, Valley of the Goblins - scout sunset positions' },
+        { time: '7:00 AM', event: 'Depart Fairfield by Marriott Inn & Suites Richfield', type: 'drive' },
+        { time: '9:00 AM', event: 'Mystic Hot Springs - Morning soak', type: 'rest', note: '475 E 100 N, Monroe, UT • Saturday April 19 • 2hr window • Booking #336573766' },
+        { time: '11:00 AM', event: 'Depart Mystic for Goblin Valley', type: 'drive', note: '~2 hour drive via UT-24' },
+        { time: '1:00 PM', event: 'Arrive Goblin Valley area, lunch', type: 'food' },
+        { time: '2:00 PM', event: 'Setup camp at BLM dispersed site', type: 'camp', note: 'Coordinates: 38.569593, -110.743586' },
+        { time: '3:30 PM', event: 'Temple Mountain Wash Pictograph Panel', type: 'photo', note: 'Large, vivid pictographs - easy access from paved road' },
+        { time: '5:00 PM', event: 'Goblin Valley State Park exploration', type: 'photo', note: 'The Three Sisters, Valley of the Goblins - scout sunset positions' },
         { time: '7:15 PM', event: 'Sunset at Goblin Valley Overlook', type: 'golden', note: 'Golden light on hoodoos, long shadows' },
         { time: 'Night', event: 'Astrophotography - Milky Way over Goblins', type: 'astro', note: 'Bortle Class 2 dark skies' }
       ],
@@ -829,7 +829,7 @@ const UtahPhotographyTrip = () => {
                 <div className="bg-stone-800 rounded-lg p-4">
                   <h4 className="text-green-400 font-medium mb-2">🍽️ Food & Services</h4>
                   <div className="font-mono text-xs text-stone-300 space-y-1">
-                    <p><span className="text-stone-500">Hampton Inn:</span> 38.749407, -112.1044421</p>
+                    <p><span className="text-stone-500">Fairfield Richfield:</span> 38.7494, -112.1045</p>
                     <p><span className="text-stone-500">Hell's Backbone:</span> 37.9023971, -111.4238739</p>
                     <p><span className="text-stone-500">Hanksville (gas):</span> 38.3730, -110.7143</p>
                   </div>
